@@ -1,13 +1,13 @@
-
 import React from "react";
+import Feature from "./feature";
 import './../styles/App.css';
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+        <Feature/>
     </div>
   )
 }
 
-export default App
+export default App;
